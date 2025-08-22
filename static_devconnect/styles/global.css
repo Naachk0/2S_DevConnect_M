@@ -1,0 +1,54 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap'); */
+/* primeira forma */
+
+@font-face {
+    font-family: high_emphaty;
+    src: url(../assets/fonts/high_empathy/High\ Empathy.ttf), url(../assets/fonts/high_empathy/High\ Empathy.otf);
+}
+
+@font-face {
+    font-family: comic_sans;
+    src: url(../assets/fonts/comic_sans/comici.ttf), url(../assets/fonts/comic_sans/ComicSansMS3.ttf);
+}
+
+/* segunda forma */
+
+:root {
+    /*variantes*/
+    --cor-pretoazulado: #0A1123;
+    --cor-lilasclarinhofundo: #D6D7E7;
+    --cor-lilas: #8A8CAC;
+    --cor-lilasclarinho: #959BB5;
+    --cor-roxoazulado: #3A3E6C;
+    --cor-branco: #ffffff;
+    --cinzaclaro: #C1C1C1;
+    --cinzamedio: #D9D9D9;
+
+    --borda: 1px solid var(--cor-lilas);
+    --borda-arredondada: 2px;
+
+    --tamanho-fonte-lg: 32px;
+    --tamanho-fontel-lg: 24px;
+    --tamanho-fonte-lg: 16px;
+}
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+@font-face {
+    font-family: "comic_sans", sans-serif;
+}
+
+}
+
+body{
+    background-color: #D6D7E7;
+}
+
+h1{
+position: absolute;
+z-index: -1;
+opacity: 0;
+}
