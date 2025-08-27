@@ -1,50 +1,102 @@
-
-main{
-background-color: #D6D7E7;
-min-height: 100vh;
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-.estilo-formulario{
-    background-color: var(--cor-oxoazulado);
-    border: var(--borda);
+main {
+    /* background-color: #3A3E6C;; fundo */
+    min-height: 100vh;
     width: 100%;
-}
-
-main > div{
-background-color:#C1C1C1;
-width: 100%;
-max-width: 342px ;
-/* height: 400px; */
-display: flex;
-flex-direction: column;
-align-items: center;
-/* justify-content: space-between; */
-gap: 25px;
-}
-
-form{
-/* background-color: #C1C1C1; */
-
-}
-
-#secao-cadastro{
-/* background-color: #C1C1C1 ; */
-
-}
-
-main > div > p{
-background-color: #D6D7E7;
-
-}
-
-secao-instalacao{
-background-color: azure;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
+main>div {
+    /* background-color: #D6D7E7; espaçamento */
+    width: 90%;
+    /* height: 400px; */
+    display: flex;
+    flex-direction: column;
+    /*um fica ao lado do outro*/
+    align-items: center;
+    /*centralizar*/
+    /* justify-content: space-between; */
+    gap: 15px;
+    /*espaçamento do quadrado do formulario*/
+}
 
+form {
+    /* background-color: #C1C1C1; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*alinha na direcao do flex (vertical)*/
+    align-items: center;
+    gap: 5px;
+    /*espaçamento dos itens*/
+    padding: 5%;
+}
+
+#secao-cadastro {
+    /* background-color: #C1C1C1 ; */
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.estilo-formulario {
+    width: 100%;
+    /*tamanho*/
+    max-width: 342px;
+    background-color: var(--cor-cinzaclaro);
+    /*cor do formulario*/
+    border: var(--borda);
+    /*borda*/
+
+}
+
+main>div>p {
+    /*obtenha o aplicativo*/
+    color: var(--cor-pretoazulado);
+    font-size: var(--tamanho-fonte-md);
+}
+
+secao-instalacao {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.formulario-campos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+
+}
+
+.formulario-botao-roxo {
+    width: 100%;
+
+}
+
+form>p {
+    text-transform: uppercase;
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-roxoazulado);
+}
+
+form>a,
+#secao-cadastro>p>a {
+    font-size: var(--tamanho-fonte-md);
+    color: var(--cor-roxoazulado);
+    text-decoration: none;
+    /*remove a decoracao que vem padrao notex
+    to*/
+}
+
+#secao-cadastro>p {
+    color: var(--cor-pretoazulado);
+    font-size: var(--tamanho-fonte-md);
+}
