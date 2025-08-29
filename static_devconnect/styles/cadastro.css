@@ -73,6 +73,20 @@ label {
 
 }
 
+#campo-upload{
+    display: none;
+}
+
+.upload-up{
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    background-color: var(--cor-lilasclarinho);
+    color: var(--cor-branco);
+    text-align: center;
+}
+
 .estilo-cadastro{
     width: 100%;
     border: var(--borda);

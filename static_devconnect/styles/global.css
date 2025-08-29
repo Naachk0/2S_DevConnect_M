@@ -100,3 +100,92 @@ h1 {
     font-size: var(--tamanho-fonte-sm);
 }
 
+.estilo-formulario {
+    width: 100%;
+    background-color: var(--cor-cinzaclaro);
+    /*cor do formulario*/
+    border: var(--borda);
+}
+
+#campo-upload{
+    display: none;
+}
+
+.upload-up{
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    background-color: var(--cor-lilasclarinho);
+    color: var(--cor-branco);
+    text-align: center;
+}
+
+
+/* cabecalho */
+#cabecalho {
+    background-color: var(--cor-branco);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    border-bottom: var(--borda);
+}
+
+
+#cabecalho>nav {
+    background-color: var(--cor-branco);
+    width: 85%;
+    max-width: 900px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo-mobile {
+    display: none;
+}
+
+
+.cabecalho-acoes {
+    /* background-color: darkblue; */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.cabecalho-acoes>a {
+    display: flex;
+    align-items: center;
+}
+
+#foto-perfil {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    /*proporcao e adaptar a imagem*/
+    border-radius: 50%;
+}
+
+
+
+/* #foto-storys {
+    height: 60px;
+    width:60px;
+    object-fit: cover;
+border-radius: 50%;
+}*/
+
+/*RESPONSIVO*/
+@media only screen and (max-width: 500px) {
+    #logo-mobile {
+        display: initial;
+
+    }
+
+    #logo-desktop {
+        display: none;
+
+    }
+}
