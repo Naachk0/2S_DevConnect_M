@@ -9,10 +9,14 @@ main {
 }
 
 .container-flex-publi {
-    background-color: aqua;
-    height: 700px;
+    /* background-color: darkslategray; */
+    /* height: 700px; */
     width: 90%;
     max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
 }
 
 /* .container-flex-publi > section{ 
@@ -36,8 +40,8 @@ main {
 
 }
 
-#storys::-webkit-scrollbar{
-width: 0;
+#storys::-webkit-scrollbar {
+    width: 0;
 
 }
 
@@ -46,7 +50,7 @@ width: 0;
 
 }
 
-.card-story >button {
+.card-story>button {
     background-color: transparent;
     border: none;
     /* text-decoration: none; */
@@ -66,11 +70,12 @@ width: 0;
     border-radius: 50%;
 }
 
-#campo-upload{
+#campo-upload {
     display: none;
 }
 
-.upload-up{
+.upload-up {
+    Font-family: sans-serif;
     display: inline-block;
     width: 100%;
     max-width: 300px;
@@ -82,10 +87,120 @@ width: 0;
 
 /* secao criar publi */
 
-.formulario-botao-roxo{
+.formulario-botao-roxo {
     width: 120px;
+
 }
 
+#criar-publi {
+    padding: 25px;
+}
+
+#criar-publi>h2 {
+    Font-family: sans-serif;
+    color: var(--cor-pretoazulado);
+    font-size: var(--tamanho-fonte-lg);
+    font-weight: 700;
+    padding: 10px;
+    /* background-color: var(--cor-cinzaclaro); */
+    color: var(--cor-lilas);
+}
+
+#criar-publi>form>textarea {
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    resize: none;
+    border: var(--borda);
+    background-color: var(--cor-cinzamedio);
+    font-size: var(--tamanho-fonte-md);
+    font-family: sans-serif;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+textarea::placeholder {
+    color: var(--cor-lilasclarinho);
+}
+
+
+
+.card-publi>header>a {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    color: var(--cor-roxoazulado);
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+.card-publi > figure {
+display: flex;
+flex-direction: column;
+}
+
+.imagem-publi{
+object-fit: cover;
+object-position: center;
+width: 100%;
+height: 530px;
+padding: 10px;
+
+}
+
+
+.card-publi > figure > figcaption{
+color: var(--cor-pretoazulado);
+font-size: var(--tamanho-fonte-md);
+font-weight: 500;
+display: flex;
+align-items: center;
+column-gap: 5px;
+margin: 15px;
+order: 2;
+}
+
+.descricao-publi{
+font-size: var(--tamanho-fonte-sm);
+font-weight: 400;
+display: flex;
+align-items: center;
+    
+}
+
+
+.interacoes-publicacao{
+display: flex;
+width: 90px;
+flex-wrap: wrap;
+justify-content: space-between;
+order: 1;
+margin-left: 15px;
+margin-top: 15px;
+}
+
+.interacoes-publicacao > button{
+
+background-color: transparent;
+border: none;
+}
+
+.card-publi > figure > button{
+background-color: transparent;
+border: none;
+color: var(--cor-lilas);
+font-size: var(--tamanho-fonte-sm);
+order: 3;
+
+margin-left: 15px;
+
+}
 
 /* .estilo-formulario {
     max-width: 342px;

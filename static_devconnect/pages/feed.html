@@ -11,7 +11,7 @@
     <title>Feed - DevConnect</title>
 
     <!--EMMET LOGO-->
-    <link rel="shortcut icon" href="../assets/images/logo-devconnect-sm.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/images/dev-connect-figma-sm.svg" type="image/x-icon">
 
     <!--EMMET LINK CSS-->
     <link rel="stylesheet" href="../styles/global.css">
@@ -24,19 +24,19 @@
     <header id="cabecalho">
         <nav>
             <a href="./feed.html">
-                <img id="logo-desktop" src="../assets/images/logo-devconnect-md.svg" alt="">
+                <img id="logo-desktop" src="../assets/images/dev-connect-figma-md.svg" alt="">
 
                 <a href="./feed.html">
-                    <img id="logo-mobile" src="../assets/images/logo-devconnect-sm.svg" alt="">
+                    <img id="logo-mobile" src="../assets/images/dev-connect-figma-sm.svg" alt="">
 
                 </a>
 
                 <div class="cabecalho-acoes">
                     <a href="./feed.html">
-                        <img src="../assets/images/icone-casa-azul.svg" alt="">
+                        <img src="../assets/images/icone-casa-lilas-figma.svg" alt="">
                     </a>
                     <a href="#">
-                        <img src="../assets/images/icone-coracao-azul.svg" alt="">
+                        <img src="../assets/images/icone-heart-lilas-figma.svg" alt="">
                     </a>
                     <a href="#">
                         <img id="foto-perfil" src="../assets/images/🎀 he's so me 🎀.jpg" alt="">
@@ -154,21 +154,57 @@
 
             </section>
 
-            <section id="criar-publi">
-                <h2>Publicacao</h2>
+            <section id="criar-publi" class="estilo-formulario">
+                <h2>Publicação</h2>
                 <form action="">
-                    <textarea name="" id=""></textarea>
+                    <textarea name="" id="" placeholder="Inserir texto..."></textarea>
                     <div>
-                    <footer>
-                        <label for="campo-upload" class="upload-up">Adicione sua imagem</label>
-                        <input type="file" name="" id="campo-upload">
+                        <footer>
+                            <label for="campo-upload" class="upload-up">Adicione sua imagem</label>
+                            <input type="file" name="" id="campo-upload">
+                            <button type="submit" class="formulario-botao-roxo">postar</button>
                     </div>
 
-                <button type="submit" class="formulario-botao-roxo">Enviar</button>
 
                     </footer>
                 </form>
             </section>
+
+            <section id="publicacoes"> <!--inicio da secao publicacoes-->
+
+                <article class="card-publi">
+                    <header>
+                        <a href="">
+                            <img class="foto-feed" src="../assets/images/Nerd.jpg" alt="">
+                            Naachk0
+                        </a>
+
+                    </header>
+
+                    <figure>
+                        <img class="imagem-publi" src="../assets/images/😝😝😝.jpg" alt="">
+                        <figcaption>
+                            Naachk0
+                            <p class="descricao-publi">Pedro pascal e gatinho tolo mostrando a lingua</p>
+                        </figcaption>
+                        <div class="interacoes-publicacao">
+                            <button type="button">
+                                <img src="../assets/images/icone-heart-preto-figma.svg" alt="">
+                            </button>
+                            <button>
+                                <img src="../assets/images/icone-comentario-preto-figma.svg" alt="">
+                            </button>
+
+                            <span>100 curtidas</span>
+
+                        </div>
+<button type="button">ver todos os comentarios</button>
+
+                    </figure>
+
+                </article>
+            </section>
+
         </div>
 
 
