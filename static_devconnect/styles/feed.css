@@ -143,6 +143,7 @@ textarea::placeholder {
 .card-publi > figure {
 display: flex;
 flex-direction: column;
+align-items: flex-start;
 }
 
 .imagem-publi{
