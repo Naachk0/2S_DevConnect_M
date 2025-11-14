@@ -73,7 +73,6 @@ h1 {
     border: var(--borda);
     height: 35px;
     background-color: var(--cor-cinzamedio);
-
     color: var(--cor-pretoazulado);
     font-size: var(--tamanho-fonte-sm);
     border-radius: var(--borda-arredondada);

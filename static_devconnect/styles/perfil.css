@@ -23,7 +23,7 @@ main {
     font-family: sans-serif;
     display: flex;
     gap: 15px;
-    justify-content: center;
+
     align-items: center;
 }
 
